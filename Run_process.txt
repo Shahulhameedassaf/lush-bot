@@ -1,0 +1,38 @@
+# LushBot - Setup & Run Guide
+
+If you just downloaded this code from Git, follow these steps to get it running.
+
+## 1. Install Prerequisites
+You need these installed on your computer:
+1.  **Python 3.10+**: [Download Here](https://www.python.org/downloads/) (Check "Add Python to PATH" during install)
+2.  **Docker Desktop**: [Download Here](https://www.docker.com/products/docker-desktop/) (Required for the database)
+3.  **Ollama**: [Download Here](https://ollama.com/) (Required for AI models)
+
+## 2. Setting Up Environment and Requirements
+1.  **Open Terminal** (Command Prompt or PowerShell).
+2.  **Download the AI Model**:
+    Run this command:
+    ```bash
+    ollama pull llama3.2:3b
+    ```
+3.  **Install Python Libraries (IMPORTANT!)**:
+    This step installs all the tools LushBot needs to run.
+    Navigate to the `backend` folder and run this exact command:
+    ```bash
+    cd backend
+    pip install -r requirement.txt
+    ```
+    *(Note: The file is named `requirement.txt`, singular)*
+
+## 3. Starting the App
+You can start everything with one click!
+
+1.  **Run the Starter Script**:
+    -   Go to the main folder.
+    -   Double-click **`START_LUSHBOT.bat`**.
+
+    *This script will automatically:*
+    *   Start the Database (Docker/Qdrant)
+    *   Start the AI Engine (Ollama)
+    *   Start the Python Backend
+    *   Open your browser to the App

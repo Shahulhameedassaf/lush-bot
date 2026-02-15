@@ -1,0 +1,322 @@
+05-02-26 12:03:00 - Use pytorch device_name: cpu
+05-02-26 12:03:00 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+05-02-26 12:03:03 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+05-02-26 12:03:03 - ================================================================================
+05-02-26 12:03:03 - NEW SESSION STARTED
+05-02-26 12:03:03 - ================================================================================
+05-02-26 12:04:43 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+05-02-26 12:04:50 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+05-02-26 12:04:52 - ================================================================================
+05-02-26 12:04:52 - USER QUESTION: What features are included in each villa?
+05-02-26 12:04:52 - BOT ANSWER: I'm so glad you're interested in learning more about our stunning villas! Each villa at our Lush Garden Resorts includes some truly special features that make every stay with us extra special.
+
+You'll get to enjoy not one, not two, but TWO living halls - what a perfect spot for relaxation and connection! Additionally, each villa boasts its own private garden, where you can unwind and let the stresses of everyday life melt away. And if you're feeling hungry or want to host a dinner party, don't worry - every villa comes with its very own dedicated dining hall!
+
+But that's not all! You'll also have your very own private terrace, where you can soak up the sunshine and enjoy the breathtaking views. And when it's time to head out, you'll be treated to private car parking, so you can arrive in style.
+
+What I'm curious - which villa configuration are you leaning towards? Are you excited about our 3BHK or 4BHK options?
+05-02-26 12:04:52 - RESPONSE TIME: 9.23 seconds
+05-02-26 12:04:52 - SOURCES USED:
+05-02-26 12:04:52 -   [1] Score: 80% - Question: What features are included in each villa?
+Answer: Each villa includes 2 living halls, a dining hall, private garden, private terrace, and pr...
+05-02-26 12:04:52 -   [2] Score: 67% - Question: What are the specific villa configurations?
+Answer: There are 6 villas with 3BHK and 2 villas with 4BHK configurations....
+05-02-26 12:04:52 -   [3] Score: 55% - Question: Do villas include dedicated dining halls?
+Answer: Yes, every villa has its own dedicated dining hall....
+05-02-26 12:04:52 - ================================================================================
+05-02-26 12:04:52 - 
+05-02-26 12:06:07 - ================================================================================
+05-02-26 12:06:07 - SESSION ENDED
+05-02-26 12:06:07 - ================================================================================
+05-02-26 12:06:07 - 
+2026-02-05 12:24:41 - Use pytorch device_name: cpu
+2026-02-05 12:24:41 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-05 12:24:44 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-02-05 12:24:44 - SESSION STARTED - ID: d4aca102
+2026-02-05 12:25:33 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+2026-02-05 12:25:40 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-05 12:25:43 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+2026-02-05 12:25:43 - ================================================================================
+2026-02-05 12:25:43 - SESSION: d4aca102
+2026-02-05 12:25:43 - QUESTION: How can guests contact Lush Garden Resort for bookings?
+2026-02-05 12:25:43 - ANSWER: You're interested in booking your dream getaway at Lush Garden Resort!
+
+To make that happen, you can easily get in touch with us via phone/WhatsApp at +91 63694 24583 or email us at info@lushgardenresort.in. We'd be delighted to help you plan an unforgettable experience!
+
+Now, are you thinking of a special celebration or just looking for some relaxation time?
+2026-02-05 12:25:43 - TIME: 9.24s
+2026-02-05 12:25:43 - ================================================================================
+2026-02-05 12:27:17 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+2026-02-05 12:27:19 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-05 12:27:22 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+2026-02-05 12:27:22 - ================================================================================
+2026-02-05 12:27:22 - SESSION: d4aca102
+2026-02-05 12:27:22 - QUESTION: Is private car parking available for each villa?
+2026-02-05 12:27:22 - ANSWER: You're looking for some clarity on parking at our lovely villas! I'm happy to report that private car parking is indeed available specifically for each villa. Just imagine pulling up right outside your personal sanctuary, with all the amenities you need at your fingertips!
+
+Now, I'm curious - have you considered what's waiting for you inside your villa when you return from a day of exploring?
+2026-02-05 12:27:22 - TIME: 4.90s
+2026-02-05 12:27:22 - ================================================================================
+2026-02-05 12:28:00 - SESSION ENDED - ID: d4aca102
+2026-02-05 12:30:56 - Use pytorch device_name: cpu
+2026-02-05 12:30:56 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-05 12:30:59 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-02-05 12:30:59 - SESSION STARTED - ID: 3acc4e59
+2026-02-05 12:33:02 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+2026-02-05 12:33:15 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-05 12:33:18 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+2026-02-05 12:33:18 - ================================================================================
+2026-02-05 12:33:18 - SESSION: 3acc4e59
+2026-02-05 12:33:18 - QUESTION: Is swimming pool access included in the villa booking?
+2026-02-05 12:33:18 - ANSWER: You're looking to dive into your villa booking at Lush Garden Resort! I've got the scoop for you - swimming pool access is indeed included in your booking, and it's all yours for one hour with the booking. Just imagine lounging by the crystal-clear waters and enjoying some relaxation time.
+
+Now, would you like to know more about the types of leisure activities you can enjoy around the pool?
+2026-02-05 12:33:18 - TIME: 15.93s
+2026-02-05 12:33:18 - ================================================================================
+2026-02-05 12:34:08 - SESSION ENDED - ID: 3acc4e59
+2026-02-05 19:20:02 - Use pytorch device_name: cpu
+2026-02-05 19:20:02 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-05 19:20:08 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-02-05 19:20:08 - SESSION STARTED - ID: ceb21688
+2026-02-05 19:20:08 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+2026-02-05 19:20:15 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-05 19:20:21 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+2026-02-05 19:20:21 - ================================================================================
+2026-02-05 19:20:21 - SESSION: ceb21688
+2026-02-05 19:20:21 - QUESTION: 
+2026-02-05 19:20:21 - ANSWER: Welcome to Lush Garden Resorts! I'm thrilled to have you here.
+
+You're wondering what the gallery section showcases? Well, let me tell you - it's a stunning collection of photos that feature all the villas, rooms, our beautiful swimming pool, and other fantastic facilities. It's your chance to get a glimpse into the breathtaking surroundings that await you during your stay with us.
+
+Now, I'm curious - have you had a chance to try out our Pre-order Kitchen yet? We're proud to offer this convenient dining option, where freshly prepared meals are delivered right to your guest room. The perfect way to enjoy a home-cooked meal in the comfort of your own villa!
+
+Our mission at Lush Garden Resorts is all about enhancing your stay with us - continually striving to meet and exceed your expectations.
+
+What's on your agenda for an unforgettable getaway at our beautiful resort?
+2026-02-05 19:20:21 - TIME: 13.41s
+2026-02-05 19:20:21 - ================================================================================
+2026-02-05 19:20:21 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+2026-02-05 19:20:22 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-05 19:20:29 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+2026-02-05 19:20:29 - ================================================================================
+2026-02-05 19:20:29 - SESSION: ceb21688
+2026-02-05 19:20:29 - QUESTION: 
+2026-02-05 19:20:29 - ANSWER: Welcome to Lush Garden Resorts! I'm thrilled to have you here. You're looking for some insight into our lovely resort, aren't you?
+
+Let's start with the gallery section - it showcases a delightful collection of photos featuring our stunning villas, cozy rooms, vibrant swimming pool, and other fantastic facilities. Isn't that just inviting?
+
+Now, when it comes to dining, we've got an exciting option for you! Our Pre-order Kitchen is available, delivering freshly prepared meals right to your guest room. How about trying some local flavors while enjoying the comfort of your own space?
+
+At Lush Garden Resorts, our mission is to provide an exceptional experience that leaves you feeling pampered and delighted. We're committed to continually enhancing guest satisfaction.
+
+I'm so glad I could share these wonderful details with you! Would you like me to tell you more about our exciting activities or perhaps recommend some of the most popular amenities?
+2026-02-05 19:20:29 - TIME: 7.25s
+2026-02-05 19:20:29 - ================================================================================
+2026-02-05 19:20:29 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+2026-02-05 19:20:30 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-05 19:20:38 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+2026-02-05 19:20:38 - ================================================================================
+2026-02-05 19:20:38 - SESSION: ceb21688
+2026-02-05 19:20:38 - QUESTION: 
+2026-02-05 19:20:38 - ANSWER: Welcome to the beautiful world of Lush Garden Resorts! I'm thrilled to help you with any questions you may have.
+
+You've asked about what the gallery section showcases, and I'm happy to tell you that it's a fantastic way to get a glimpse of our stunning villas, rooms, swimming pool, and other facilities. You can almost feel like you're right there, exploring all that we have to offer!
+
+Now, let's talk about dining. We've got an amazing option for you - a Pre-order Kitchen! Not only is it convenient, but your meals will be freshly prepared just for you, delivered straight to your room.
+
+Our mission here at Lush Garden Resorts is all about making sure our guests feel absolutely delighted and satisfied. We're committed to continually enhancing that guest satisfaction, so every stay with us is a special one.
+
+How exciting to think about planning your dream getaway? What's on your must-see list when you arrive at the resort?
+2026-02-05 19:20:38 - TIME: 8.99s
+2026-02-05 19:20:38 - ================================================================================
+2026-02-05 19:20:45 - SESSION ENDED - ID: ceb21688
+2026-02-05 19:21:06 - Use pytorch device_name: cpu
+2026-02-05 19:21:06 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-05 19:21:22 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-02-05 19:21:22 - SESSION STARTED - ID: 0d09e928
+2026-02-05 19:23:22 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+2026-02-05 19:23:23 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-05 19:23:24 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+2026-02-05 19:23:24 - ================================================================================
+2026-02-05 19:23:24 - SESSION: 0d09e928
+2026-02-05 19:23:24 - QUESTION: What is the official website of the resort?
+2026-02-05 19:23:24 - ANSWER: You're looking for the official website of our beautiful resort! I've got that tidbit right here - it's www.lushgardenresort.in. Isn't it lovely? Would you like to know more about our Thiruvidanthai location or perhaps some fun activities we have planned for company outings?
+2026-02-05 19:23:24 - TIME: 1.87s
+2026-02-05 19:23:24 - ================================================================================
+2026-02-05 19:24:53 - SESSION ENDED - ID: 0d09e928
+07-02-2026 15:08:14 - Use pytorch device_name: cpu
+07-02-2026 15:08:14 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+07-02-2026 15:08:43 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+07-02-2026 15:08:43 - SESSION STARTED - ID: 1d48006e
+07-02-2026 15:19:39 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+07-02-2026 15:19:48 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+07-02-2026 15:19:51 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+07-02-2026 15:19:51 - ================================================================================
+07-02-2026 15:19:51 - SESSION: 1d48006e
+07-02-2026 15:19:51 - QUESTION: Can weddings be hosted at Lush Garden Resort?
+07-02-2026 15:19:51 - ANSWER: Absolutely, weddings can indeed be hosted at Lush Garden Resort! We're thrilled to hear that this beautiful venue is a popular choice for many special occasions.
+
+Now, I'm curious... Are you thinking of planning an unforgettable wedding getaway with your loved ones? What's on your mind when it comes to creating the perfect celebration?
+07-02-2026 15:19:51 - TIME: 11.80s
+07-02-2026 15:19:51 - ================================================================================
+07-02-2026 15:20:10 - SESSION ENDED - ID: 1d48006e
+09-02-2026 14:04:11 - Use pytorch device_name: cpu
+09-02-2026 14:04:11 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+09-02-2026 14:04:11 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:12 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:12 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:12 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:13 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:13 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:13 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:13 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+09-02-2026 14:04:13 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:13 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:14 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:14 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:14 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+09-02-2026 14:04:14 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:14 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+09-02-2026 14:04:14 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:15 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:15 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:15 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:15 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:16 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+09-02-2026 14:04:16 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+09-02-2026 14:04:17 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+09-02-2026 14:04:17 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+09-02-2026 14:04:17 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+09-02-2026 14:04:17 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+09-02-2026 14:04:17 - SESSION STARTED - ID: d39ca3e3
+09-02-2026 14:08:26 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+09-02-2026 14:08:35 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+09-02-2026 14:08:36 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 200 OK"
+09-02-2026 14:08:36 - ================================================================================
+09-02-2026 14:08:36 - SESSION: d39ca3e3
+09-02-2026 14:08:36 - QUESTION: what is official website ?
+09-02-2026 14:08:36 - ANSWER: You're looking for the official website of our lovely resort!
+
+The answer is www.lushgardenresort.in.
+
+Now, would you like to explore more about what makes our Pre-order Kitchen so special?
+09-02-2026 14:08:36 - TIME: 9.96s
+09-02-2026 14:08:36 - ================================================================================
+09-02-2026 14:26:28 - SESSION ENDED - ID: d39ca3e3
+15-02-2026 20:23:21 - Use pytorch device_name: cpu
+15-02-2026 20:23:21 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+15-02-2026 20:23:22 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:22 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:22 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:22 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:23 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:23 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:23 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:23 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+15-02-2026 20:23:24 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:24 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:24 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:24 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:25 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+15-02-2026 20:23:25 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:25 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:26 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:26 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:26 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:26 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+15-02-2026 20:23:26 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:27 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15-02-2026 20:23:27 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15-02-2026 20:23:28 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:23:28 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+15-02-2026 20:23:28 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+15-02-2026 20:23:28 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+15-02-2026 20:23:28 - SESSION STARTED - ID: c281c4dc
+15-02-2026 20:24:27 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+15-02-2026 20:24:35 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+15-02-2026 20:24:39 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 404 Not Found"
+15-02-2026 20:24:39 - ================================================================================
+15-02-2026 20:24:39 - SESSION: c281c4dc
+15-02-2026 20:24:39 - QUESTION: where it located ?
+15-02-2026 20:24:39 - ANSWER: Hello there! I'm thrilled to help you find the location of our beautiful resort!
+
+According to our records, Lush Garden Resort is located in Thiruvidanthai, Chennai. And if you'd like to see it on a map, I can provide you with the exact address.
+
+[Lush Garden Resort - Google Maps](https://maps.app.goo.gl/CWrFFToUCVNhAE6LA)
+
+Would you like to know more about our resort or perhaps plan your stay?
+15-02-2026 20:24:39 - TIME: 11.73s
+15-02-2026 20:24:39 - ================================================================================
+15-02-2026 20:24:47 - SESSION ENDED - ID: c281c4dc
+15-02-2026 20:26:12 - Use pytorch device_name: cpu
+15-02-2026 20:26:12 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+15-02-2026 20:26:13 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:13 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+15-02-2026 20:26:13 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:14 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:14 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:14 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:14 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:15 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:15 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+15-02-2026 20:26:15 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:15 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:16 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:16 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:16 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+15-02-2026 20:26:17 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:17 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:18 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:18 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:18 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:18 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:19 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15-02-2026 20:26:19 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15-02-2026 20:26:20 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:26:20 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+15-02-2026 20:26:20 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+15-02-2026 20:26:21 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+15-02-2026 20:26:21 - SESSION STARTED - ID: 99e49673
+15-02-2026 20:27:03 - HTTP Request: POST http://localhost:6333/collections/my_vectors/points/query "HTTP/1.1 200 OK"
+15-02-2026 20:27:04 - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+15-02-2026 20:27:08 - HTTP Request: PUT http://localhost:6333/collections/chat_logs/points?wait=true "HTTP/1.1 404 Not Found"
+15-02-2026 20:27:08 - ================================================================================
+15-02-2026 20:27:08 - SESSION: 99e49673
+15-02-2026 20:27:08 - QUESTION: where it located 
+15-02-2026 20:27:08 - ANSWER: Hello there! I'm thrilled to have you here at Lush Garden Resort!
+
+You're asking about our location, aren't you? Well, let me tell you - we're located on East Coast Road (ECR) in the beautiful city of Thiruvidanthai, Chennai! You can find us at [Lush Garden Resort - Google Maps](https://maps.app.goo.gl/CWrFFToUCVNhAE6LA.)
+
+Would you like to know more about our resort or perhaps plan a visit?
+15-02-2026 20:27:08 - TIME: 5.34s
+15-02-2026 20:27:08 - ================================================================================
+15-02-2026 20:27:22 - SESSION ENDED - ID: 99e49673
+15-02-2026 20:37:24 - Use pytorch device_name: cpu
+15-02-2026 20:37:24 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+15-02-2026 20:37:25 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:25 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:25 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:25 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:26 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:26 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:26 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:26 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+15-02-2026 20:37:26 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:26 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:27 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:27 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:27 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+15-02-2026 20:37:28 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:28 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:28 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:28 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:28 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:29 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:29 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15-02-2026 20:37:29 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15-02-2026 20:37:30 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+15-02-2026 20:37:30 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+15-02-2026 20:37:30 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+15-02-2026 20:37:30 - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+15-02-2026 20:37:30 - SESSION STARTED - ID: 180aa669
+15-02-2026 20:37:46 - SESSION ENDED - ID: 180aa669

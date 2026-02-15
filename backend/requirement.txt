@@ -1,0 +1,19 @@
+# Core Dependencies
+qdrant-client==1.7.3
+sentence-transformers==2.2.2
+langchain-ollama==0.1.0
+langchain-core==0.1.23
+langchain-community==0.0.20
+langchain-huggingface==0.0.1
+
+# Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Data Processing
+pandas==2.1.4
+
+# Additional Dependencies
+numpy==1.26.2
+transformers==4.36.2
+torch==2.1.2
