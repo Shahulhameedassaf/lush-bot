@@ -28,6 +28,9 @@ echo ================================
 echo   LushBot Started!
 echo ================================
 echo.
+echo 🌐 Frontend (Chatbot):     http://localhost:5000
+echo 🔐 Admin Login:            http://localhost:5000/login.html
+echo 📊 Chat Logs:              http://localhost:5000/logs.html
 echo Opening browser in 5 seconds...
 timeout /t 5 /nobreak >nul
 start http://localhost:5000

@@ -67,8 +67,12 @@ function addMessage(text, sender) {
     const contentDiv = document.createElement('div');
     contentDiv.className = 'message-content';
 
-    // Convert Markdown links [text](url) to HTML <a> tags
-    const formattedText = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+    // 1. Convert Markdown links [text](url)
+    let formattedText = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+
+    // 2. Convert bare URLs that weren't caught by Markdown (simple fallback)
+    // We use a negative lookbehind to avoid double-linking URLs already in an <a> tag
+    formattedText = formattedText.replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank">$1</a>');
 
     contentDiv.innerHTML = `<p>${formattedText.replace(/\n/g, '<br>')}</p>`;
 

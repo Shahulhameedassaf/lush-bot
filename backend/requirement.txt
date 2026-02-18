@@ -17,3 +17,6 @@ pandas==2.1.4
 numpy==1.26.2
 transformers==4.36.2
 torch==2.1.2
+
+# Authentication & Security
+PyJWT==2.8.0

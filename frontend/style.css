@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-    --primary-color: #2E7D32;
+    --primary-color: #dba7ea;
     /* Lush Green */
     --secondary-color: #F9F9F9;
     /* Off-white background */
@@ -359,6 +359,17 @@ footer {
 .user-message .message-content {
     background: var(--primary-color);
     color: var(--white);
+}
+
+.message-content a {
+    color: #0066cc;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.user-message .message-content a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .chat-input {
