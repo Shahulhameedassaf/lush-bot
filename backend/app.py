@@ -36,9 +36,10 @@ def not_found(error):
     return {'error': 'Endpoint not found'}, 404
 
 if __name__ == '__main__':
+    from waitress import serve
     print("="*60)
-    print("🚀 LUSHBOT - MODULAR SERVER")
-    print("📱 Users: http://localhost:5000 (No login)")
+    print("🚀 LUSHBOT - PRODUCTION SERVER (Waitress)")
+    print("📱 Users: http://localhost:5000")
     print("🔐 Admin: http://localhost:5000/login.html")
     print("="*60)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    serve(app, host='0.0.0.0', port=5000)

@@ -3,7 +3,7 @@ from functools import wraps
 import jwt
 import hashlib
 from datetime import datetime, timedelta
-from model import client
+from model import client  #✅FIXED: models (plural)
 
 admin_bp = Blueprint('admin', __name__)
 SECRET_KEY = "lushbot-secret-key-2026-change-this"
@@ -48,18 +48,24 @@ def login():
 @admin_bp.route('/logs', methods=['GET'])
 @require_auth
 def logs(username):
-    results = client.scroll("chat_logs", limit=100)
+    # ✅ FIXED: Use scroll (returns tuple of [points, offset])
+    points, _ = client.scroll(collection_name="chat_logs", limit=100)
+    
     logs = [{
-        'id': log.id,
-        'timestamp': log.payload.get('timestamp'),
-        'session_id': log.payload.get('session_id'),
-        'question': log.payload.get('question'),
-        'answer': log.payload.get('answer'),
-        'response_time': log.payload.get('response_time', 0)
-    } for log in results[0]]
+        'id': str(point.id),
+        'timestamp': point.payload.get('timestamp'),
+        'session_id': point.payload.get('session_id'),
+        'question': point.payload.get('question'),
+        'answer': point.payload.get('answer'),
+        'response_time': point.payload.get('response_time', 0),
+        'sources': point.payload.get('sources', 0)
+    } for point in points]
+    
+    # Sort by timestamp descending (Newest first: 25th, 24th, 23rd...)
+    logs.sort(key=lambda x: x.get('timestamp') or "", reverse=True)
     
     return jsonify({
-        'logs': logs[::-1],  # Newest first
+        'logs': logs,
         'total': len(logs),
         'admin': username
     })

@@ -9,20 +9,30 @@ You need these installed on your computer:
 3.  **Ollama**: [Download Here](https://ollama.com/) (Required for AI models)
 
 ## 2. Setting Up Environment and Requirements
-1.  **Open Terminal** (Command Prompt or PowerShell).
-2.  **Download the AI Model**:
+1.  **Open Terminal** (Command Prompt or PowerShell) at the project's root folder.
+2.  **Create a Virtual Environment** (Required for the Starter Script):
+    Run this command:
+    ```bash
+    python -m venv .venv
+    ```
+3.  **Download the AI Model**:
     Run this command:
     ```bash
     ollama pull llama3.2:3b
     ```
-3.  **Install Python Libraries (IMPORTANT!)**:
-    This step installs all the tools LushBot needs to run.
-    Navigate to the `backend` folder and run this exact command:
+4.  **Install Python Libraries**:
+    Navigate to the `backend` folder and run this command:
     ```bash
     cd backend
-    pip install -r requirement.txt
+    ..\\.venv\\Scripts\\python -m pip install -r requirement.txt
     ```
-    *(Note: The file is named `requirement.txt`, singular)*
+    *(This ensures libraries are installed specifically for this project)*
+
+5.  **Initial Data Ingestion** (Load the resort info):
+    While still in the `backend` folder, run:
+    ```bash
+    ..\\.venv\\Scripts\\python ingest.py
+    ```
 
 ## 3. Starting the App
 You can start everything with one click!

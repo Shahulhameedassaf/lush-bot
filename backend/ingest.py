@@ -1,4 +1,4 @@
-from langchain_community.vectorstores import Qdrant
+from langchain_qdrant import QdrantVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.document_loaders import CSVLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -20,5 +20,5 @@ client = QdrantClient("http://localhost:6333")
 client.recreate_collection("my_vectors", vectors_config=VectorParams(size=384, distance=Distance.COSINE))
 
 print("Ingestion...")
-Qdrant.from_documents(texts, embeddings, url="http://localhost:6333", collection_name="my_vectors")
+QdrantVectorStore.from_documents(texts, embeddings, url="http://localhost:6333", collection_name="my_vectors")
 print(" RAG DATABASE READY!")

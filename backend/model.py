@@ -1,6 +1,6 @@
 from qdrant_client import QdrantClient, models
 from sentence_transformers import SentenceTransformer
-from langchain_community.vectorstores import Qdrant
+from langchain_qdrant import QdrantVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama import OllamaLLM
 import threading
@@ -17,10 +17,10 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 llm = OllamaLLM(model="llama3.2:3b", temperature=0.7)
 
 # 🔥 RAG VECTORSTORE (Your CSV data!)
-vectorstore = Qdrant(
+vectorstore = QdrantVectorStore(
     client=client,
     collection_name="my_vectors",
-    embeddings=embeddings
+    embedding=embeddings
 )
 
 # Thread lock

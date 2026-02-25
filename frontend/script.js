@@ -70,9 +70,14 @@ function addMessage(text, sender) {
     // 1. Convert Markdown links [text](url)
     let formattedText = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
 
-    // 2. Convert bare URLs that weren't caught by Markdown (simple fallback)
-    // We use a negative lookbehind to avoid double-linking URLs already in an <a> tag
-    formattedText = formattedText.replace(/(?<!href=")(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank">$1</a>');
+    // 2. Convert bare URLs that weren't caught by Markdown
+    // Improved regex to handle trailing punctuation correctly
+    const urlRegex = /(?<!href=")(https?:\/\/[^\s<]+)(?<![.,!?;:)])/g;
+    formattedText = formattedText.replace(urlRegex, (url) => {
+        // Double check: remove any trailing punctuation that the regex might have missed due to complex nesting
+        let cleanUrl = url.replace(/[.,!?;:)]+$/, '');
+        return `<a href="${cleanUrl}" target="_blank">${cleanUrl}</a>`;
+    });
 
     contentDiv.innerHTML = `<p>${formattedText.replace(/\n/g, '<br>')}</p>`;
 
