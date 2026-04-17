@@ -1,48 +1,90 @@
-# LushBot - Setup & Run Guide
+To run LushBot, you need to:
 
-If you just downloaded this code from Git, follow these steps to get it running.
+Install required software (Python, Docker, Ollama)
+Prepare the project (install libraries & data)
+Start the application
 
-## 1. Install Prerequisites
-You need these installed on your computer:
-1.  **Python 3.10+**: [Download Here](https://www.python.org/downloads/) (Check "Add Python to PATH" during install)
-2.  **Docker Desktop**: [Download Here](https://www.docker.com/products/docker-desktop/) (Required for the database)
-3.  **Ollama**: [Download Here](https://ollama.com/) (Required for AI models)
+1. Install Required Software (One-Time Setup)
 
-## 2. Setting Up Environment and Requirements
-1.  **Open Terminal** (Command Prompt or PowerShell) at the project's root folder.
-2.  **Create a Virtual Environment** (Required for the Starter Script):
-    Run this command:
-    ```bash
-    python -m venv .venv
-    ```
-3.  **Download the AI Model**:
-    Run this command:
-    ```bash
-    ollama pull llama3.2:3b
-    ```
-4.  **Install Python Libraries**:
-    Navigate to the `backend` folder and run this command:
-    ```bash
-    cd backend
-    ..\\.venv\\Scripts\\python -m pip install -r requirement.txt
-    ```
-    *(This ensures libraries are installed specifically for this project)*
+You must install these tools before running the project:
 
-5.  **Initial Data Ingestion** (Load the resort info):
-    While still in the `backend` folder, run:
-    ```bash
-    ..\\.venv\\Scripts\\python ingest.py
-    ```
+1.1 Python (Programming Language)
+Download: https://www.python.org/downloads/
+Install it normally
+✅ IMPORTANT: During installation, enable “Add Python to PATH”
 
-## 3. Starting the App
-You can start everything with one click!
 
-1.  **Run the Starter Script**:
-    -   Go to the main folder.
-    -   Double-click **`START_LUSHBOT.bat`**.
+1.2 Docker Desktop (Database Engine)
+Download: https://www.docker.com/products/docker-desktop/
+Install and open it
 
-    *This script will automatically:*
-    *   Start the Database (Docker/Qdrant)
-    *   Start the AI Engine (Ollama)
-    *   Start the Python Backend
-    *   Open your browser to the App
+
+1.3 Ollama (AI Model Runner)
+Download: https://ollama.com/
+Install it
+
+
+
+2. Project Setup (Step-by-Step)
+
+2.1 Open the Project Folder
+
+Go to the folder where you downloaded the project
+Right-click → Open in Terminal / PowerShell
+
+
+2.2 Create Virtual Environment
+
+Run:
+
+python -m venv .venv
+
+👉 Why?
+This creates a separate environment so project libraries don’t affect your system.
+
+2.3 Download AI Model
+
+Run:
+
+ollama pull llama3.2:3b
+
+👉 Why?
+This downloads the AI brain used by LushBot.
+⏳ It may take time depending on internet speed.
+
+2.4 Install Required Libraries
+
+Go to backend folder:
+
+cd backend
+
+Then run:
+
+..\ .venv\Scripts\python -m pip install -r requirement.txt
+
+👉 Why?
+This installs all necessary Python packages required to run the project.
+
+2.5 Load Initial Data (Very Important Step)
+
+Run:
+
+..\ .venv\Scripts\python ingest.py
+
+👉 Why?
+This step loads your resort/chatbot data into the database.
+Without this, the bot will not respond properly.
+
+3. Run the Application
+✅ Easiest Method (Recommended)
+
+go to scripts activation ("(.venv) PS C:\.my project\lush.bot> ")
+then START_LUSHBOT.bat commad (.\START_LUSHBOT.bat ) run this command
+The system automatically performs:
+
+Starts database using Docker
+Starts AI model using Ollama
+Runs backend server (Python)
+Opens the application in your browser
+
+👉 You don’t need to run anything manually
